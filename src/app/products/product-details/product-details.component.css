@@ -1,0 +1,22 @@
+.details{
+    display: flex;
+   
+    justify-content: space-between;
+    max-width: 100%;
+}
+.img-card{
+   width:600px;
+   height: 600px;
+}
+.img-card img{
+    max-width: 500px;
+}
+
+.detail-card{
+    margin: 1rem;
+    width:600px;
+    height: 600px;
+}
+.h1{
+    color: black;
+}

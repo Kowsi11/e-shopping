@@ -1,9 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files
 /* Global Styles */
 
 * {
     font-family: 'Roboto', Arial, sans-serif;
-    color: #616161;
+    color: #6e6868;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -26,6 +26,8 @@
   
   h1 {
     font-size: 32px;
+    font-weight: 600;
+    color: black;
   }
   
   h2 {
@@ -81,6 +83,7 @@
     background-color: #1976d2;
     color: white;
     border: none;
+    margin: 0.2rem;
   }
   
   .button:hover, button:hover {
@@ -96,12 +99,12 @@
   /* Fancy Button */
   
   .fancy-button {
-    background-color: white;
-    color: #1976d2;
+    /* background-color: white; */
+    color: #f1f1f1;
   }
   
   .fancy-button i.material-icons {
-    color: #1976d2;
+    color: #ffffff;
     padding-right: 4px;
   }
   
@@ -139,4 +142,6 @@
   }
   
   
-  
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

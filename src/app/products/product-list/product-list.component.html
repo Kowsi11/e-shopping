@@ -1,4 +1,36 @@
 <h2>Products</h2>
 
-<div *ngFor="let product of products">
+<!-- <div *ngFor="let product of products">
+    <h3>
+        <a [title]="product.p_name + ' details'" [routerLink]="['/products',product.p_id]">
+            {{ product.p_name }}
+        </a>
+    </h3>
+    <p *ngIf="product.p_details">
+        Description: {{ product.p_details }}
+    </p>
+
+    <button (click)="share()">
+        Share
+    </button>
+</div> -->
+
+<div class="row">
+    <mat-card class="example-card" *ngFor="let product of products">
+        <mat-card-header>
+
+            <mat-card-title [routerLink]="['/products',product.p_id]">{{product.p_name}}</mat-card-title>
+
+        </mat-card-header>
+        <img mat-card-image src="{{product.p_img}}" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+            <p>
+                {{product.p_details}}
+            </p>
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-button (click)="like()">LIKE</button>
+            <button mat-button (click)="share()">SHARE</button>
+        </mat-card-actions>
+    </mat-card>
 </div>

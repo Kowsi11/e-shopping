@@ -1,0 +1,28 @@
+<h2>Product Details</h2>
+<div class="details">
+
+    <div class="row">
+        <mat-card class="img-card" *ngIf="product">
+
+            <img mat-card-image src="{{product.p_img}}" alt="Photo of a Shiba Inu">
+
+            <mat-card-actions>
+                <button mat-button>Add to cart</button>
+                <button mat-button>Share</button>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+
+    <div class="row">
+        <mat-card class="detail-card" *ngIf="product">
+            <mat-card-title>{{product.p_name}}</mat-card-title>
+
+            <h1>{{ product.p_cost | currency }}</h1>
+            <p>{{ product.p_details }}</p>
+            <mat-card-actions>
+                <button (click)="addToCart(product)">Buy</button>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+
+</div>

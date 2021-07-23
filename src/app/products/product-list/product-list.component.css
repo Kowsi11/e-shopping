@@ -1,0 +1,28 @@
+.row{
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+.example-card {
+    max-width: 300px;
+    justify-content: space-between;
+    margin:0.5rem;
+    cursor: pointer;
+   
+    
+}
+.example-card:hover{
+   opacity: 1;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+   transition: all 0.3se ease;
+}
+  .mat-card-title{
+      cursor: pointer;
+      text-transform: capitalize;
+  }
+
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
