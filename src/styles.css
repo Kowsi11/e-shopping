@@ -1,6 +1,6 @@
-/* You can add global styles to this file, and also import other style files
+/* /* You can add global styles to this file, and also import other style files
 /* Global Styles */
-
+/*
 * {
     font-family: 'Roboto', Arial, sans-serif;
     color: #6e6868;
@@ -22,7 +22,7 @@
     padding: 0 16px;
   }
   
-  /* Text */
+  /* Text 
   
   h1 {
     font-size: 32px;
@@ -42,11 +42,11 @@
     font-size: 14px;
   }
   
-  /* Hyperlink */
+  /* Hyperlink 
   
   a {
     cursor: pointer;
-    color: #1976d2;
+    color: #ffffff;
     text-decoration: none;
   }
   
@@ -54,7 +54,7 @@
     opacity: 0.8;
   }
   
-  /* Input */
+  /* Input 
   
   input {
     font-size: 14px;
@@ -72,7 +72,7 @@
     text-transform: uppercase;
   }
   
-  /* Button */
+  /* Button 
   .button, button {
     display: inline-flex;
     align-items: center;
@@ -96,10 +96,10 @@
     cursor: auto;
   }
   
-  /* Fancy Button */
+  /* Fancy Button 
   
   .fancy-button {
-    /* background-color: white; */
+    /* background-color: white; 
     color: #f1f1f1;
   }
   
@@ -108,7 +108,7 @@
     padding-right: 4px;
   }
   
-  /* Top Bar */
+  /* Top Bar 
   
   app-top-bar {
     width: 100%;
@@ -126,7 +126,7 @@
     margin: 0;
   }
   
-  /* Checkout Cart, Shipping Prices */
+  /* Checkout Cart, Shipping Prices 
   
   .cart-item, .shipping-item {
     width: 100%;
@@ -144,4 +144,4 @@
   
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */

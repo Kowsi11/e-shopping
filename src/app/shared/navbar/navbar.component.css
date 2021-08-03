@@ -1,12 +1,23 @@
-nav{
-    background-color: #2874f0;
-    padding: 2px;
-    display: flex;
-    justify-content: space-between;
-
+ 
+.material-icons{
+    color: white;
+  
+    
 }
-
+/*
 .logo{
  color: white;
- align-items: center;
+ padding-left: 30px;
+ padding-top: 10px;
+ position: absolute;
+}*/
+
+/* .input{
+    padding-left:100px ;
+    padding-top: 10px;
+   
 }
+.cart{
+    padding-top: 15px;
+    padding-left: 900px;
+} */ 

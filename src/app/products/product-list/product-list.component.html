@@ -22,15 +22,15 @@
             <mat-card-title [routerLink]="['/products',product.p_id]">{{product.p_name}}</mat-card-title>
 
         </mat-card-header>
-        <img mat-card-image src="{{product.p_img}}" alt="Photo of a Shiba Inu">
+        <img mat-card-image class="example-image" src="{{product.p_img}}" alt="Photo of a products">
         <mat-card-content>
             <p>
                 {{product.p_details}}
             </p>
         </mat-card-content>
-        <mat-card-actions>
-            <button mat-button (click)="like()">LIKE</button>
-            <button mat-button (click)="share()">SHARE</button>
+        <mat-card-actions class="btn-part">
+            <button mat-button class="btn-primary" (click)="like()">LIKE</button>
+            <button mat-button class="btn-primary" (click)="share()">SHARE</button>
         </mat-card-actions>
     </mat-card>
 </div>

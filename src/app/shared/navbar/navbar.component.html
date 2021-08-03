@@ -1,7 +1,40 @@
-<nav>
+<!-- <nav>
     <a [routerLink]="['/']">
-        <h1 class="logo">My Store</h1>
+        <h1 class="logo">eStore</h1>
+    </a>
+    <div class="input">
+        <input type="text" placeholder="search" />
+
+        <mat-icon>search</mat-icon>
+    </div>
+    <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item>Item 1</button>
+        <button mat-menu-item>Item 2</button>
+    </mat-menu>
+    <a routerLink="/cart" class="cart">
+        <mat-icon [matBadge]="0" matBadgeColor="warn">shopping_cart</mat-icon>
+    </a>
+</nav> -->
+
+<nav class="navbar navbar-expand navbar-dark bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+    </div>
+
+    <div class="navbar-nav">
+        <a class="nav-item nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-item nav-link active" href="#">Features</a>
+        <a class="nav-item nav-link active" href="#">Pricing</a>
+        <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </div>
+    <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-primary" type="submit">Search</button>
+    </form>
+    <a routerLink="/cart" class="cart">
+        <mat-icon [matBadge]="0" matBadgeColor="warn">shopping_cart</mat-icon>
     </a>
 
-    <a routerLink="/cart" class="button fancy-button"><i class="material-icons">shopping_cart</i>Cart</a>
+
 </nav>
